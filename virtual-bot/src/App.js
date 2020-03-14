@@ -1,20 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Home from "./Home"
-class App extends React.Component {
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import {sendMessage} from './chat';
+
+class App extends Component {
   render(){
+    const {feed, sendMessage} = this.props;
     return (
-       < Home/>
-      // <div className="App">
-      //   <header className="App-header">
-      //     <img src="https://cdn.britannica.com/s:700x500/67/183767-050-23D72392/World-Data-Locator-Map-Sweden.jpg" />
-      //     <h1>Under Construction. We'll be back soon ;)</h1>
-      //
-      //   </header>
-      // </div>
+      <div class="container">
+        <h1>Welcome there!</h1>
+        <u1>
+          {feed.map(entry => <li>{entry.text}</li>)}
+        </u1>
+        <input type="text" onKeyDown={ e=> e.keyCode === 13 ? sendMessage(e.target.value) : null }/>
+      </div>
     );
   }
 }
 
-export default App;
+const mapStateToProps = state => ({
+  feed: state
+});
+
+export default connect(mapStateToProps, {
+  sendMessage
+})(App);
