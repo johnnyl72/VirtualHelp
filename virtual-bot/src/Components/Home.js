@@ -9,23 +9,27 @@ class Home extends React.Component{
 
         <main role="main">
           <div style={{background: "#F0F8FF" , overflowX:"hidden"}}>
-            <div style={{paddingTop: "5%", paddingBottom: "18%"}}>
+            <div style={{paddingTop: "5%", paddingBottom: "13%"}}>
               <div className="row center">
                 <div className="col-lg-3">
                   <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "75%"}}/>
                 </div>
                 <div className="col-lg-6">
-                  <h2>Heading</h2>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                  <h1 class="display-3 font-weight-bold" style={{color:"coral"}}>Punny headline</h1>
+       <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
+       <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
+                  <div className= "flex-container mt-5">
+                    <img src="https://livetyping.com/assets/images/blog/bestmobileappawards.png" alt="" style={{width:"40%"}}/>
+                    <img src="https://woebot.io/static/app-of-the-day-afdcd34bdd3e1d3aec95856955e7dd45.png" alt="" style={{width:"40%"}}/>
+                  </div>
+
                 </div>
                 <div className="col-lg-3">
                   <img src="https://woebot.io/static/app-d427756f065bfa07d4125d9be3d8ee8d.gif" alt="" style={{width: "95%", position: "relative", left: "30%"}}/>
                 </div>
-                <div className="row" style={{position: "relative", right: "10%"}}>
-                  <img src="https://pluspng.com/img-png/get-it-on-google-play-png-file-get-it-on-google-play-svg-1280.png" alt="" style={{width:"20%", padding: "20px" }}/>
-                  <img src="https://cdn.worldvectorlogo.com/logos/download-on-the-app-store-apple.svg" alt="" style={{width:"20%", padding: "20px"}}/>
+                <div className="row" style={{position: "relative", right: "15%"}}>
+                  <img src="https://pluspng.com/img-png/get-it-on-google-play-png-file-get-it-on-google-play-svg-1280.png" alt="" style={{width:"20%", padding: "15px" }}/>
+                  <img src="https://cdn.worldvectorlogo.com/logos/download-on-the-app-store-apple.svg" alt="" style={{width:"20%", padding: "15px"}}/>
                 </div>
               </div>
             </div>
@@ -113,7 +117,13 @@ class Home extends React.Component{
             <hr className="featurette-divider" />
             {/* /END THE FEATURETTES */}
           </div>{/* /.container */}
-
+          {/* Footer */ }
+          <div>
+            <footer className="container">
+              <p className="float-right"><a href="#">Back to top</a></p>
+              <p>© 2017-2019 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+            </footer>
+          </div>
         </main>
       </div>
 

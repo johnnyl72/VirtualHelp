@@ -5,10 +5,13 @@ function Nav(){
     <div>
       <header>
         <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{backgroundColor: "#008B8B"}}>
-          <a className="navbar-brand" href="#">HelpBot</a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon" />
-          </button>
+          <a className="navbar-brand" href="#">
+            <img src="https://i.pinimg.com/originals/ba/92/fe/ba92fe11861df19e26a8be133acc5e10.png"
+                style={{width:"30px", height:"30px", transform: "rotate(.6turn)", filter: "hue-rotate(220deg"}}
+                className="d-inline-block align-top mr-2" alt="err"
+              />
+            <h style={{letterSpacing: "2px", color: "white", fontWeight: "light"}}>Help Bot</h>
+          </a>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
