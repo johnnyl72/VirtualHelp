@@ -11,7 +11,7 @@ class Home extends React.Component{
           <div style={{background: "#F0F8FF" , overflowX:"hidden"}}>
             <div style={{paddingTop: "5%", paddingBottom: "13%"}}>
               <div className="row center">
-                <div className="col-lg-3">
+                <div className="col-lg-3 ">
                   <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "75%"}}/>
                 </div>
                 <div className="col-lg-6">

@@ -35,8 +35,6 @@ body {
 }
 
 
-
-
 /* MY STYLES */
 .cover {
   object-fit: cover;
@@ -54,6 +52,24 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
+
+@keyframes example {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
