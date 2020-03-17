@@ -52,24 +52,21 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-
-
-@keyframes example {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+body{
+  font-family: 'Source Code Pro', monospace;
 }
+.heading{
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+.subheading{
+  font-weight: 300;
+  font-size: 1.2rem;
 
-
-
-
-
+}
+hr{
+  background-color: #ccc;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
