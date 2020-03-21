@@ -7,10 +7,8 @@ class Home extends React.Component{
 
     return(
       <div>
-
-        <main role="main">
           <div style={{backgroundImage: "url(https://wallpaperplay.com/walls/full/8/4/2/86369.jpg)"}} >
-            <div style={{paddingTop: "6%", paddingBottom: "13%"}}>
+            <div style={{paddingTop: "10%", paddingBottom: "10%"}}>
               <div className="row center">
                 <div className="col-lg-3 fadeIn">
                   <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "75%"}}/>
@@ -31,7 +29,7 @@ class Home extends React.Component{
               </div>
             </div>
           </div>
-
+          <div id="bgColor" className="pb-2">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to={0} className="active" />
@@ -78,7 +76,7 @@ class Home extends React.Component{
               <span className="sr-only">Next</span>
             </a>
           </div>
-            <div className="TopContainer p-5">
+            <div className="p-5">
               <div class="container">
                 {/* START THE FEATURETTES */}
                 <div className="row featurette">
@@ -92,7 +90,7 @@ class Home extends React.Component{
                 </div>
               </div>
             </div>
-            <div className="TopContainer2 p-5">
+            <div className="p-5">
               <div className="container" >
                 <div className="row featurette">
                   <div className="col-md-7 order-md-2">
@@ -105,7 +103,7 @@ class Home extends React.Component{
                 </div>
               </div>
             </div>
-            <div className="TopContainer3 p-5">
+            <div className="p-5">
               <div className="container">
                 <div className="row featurette">
                   <div className="col-md-7 order-md-2">
@@ -118,19 +116,16 @@ class Home extends React.Component{
                 </div>
               </div>
             </div>
-
-          {/* Footer */ }
-          <div>
-            <footer className="container">
-              <hr className="featurette-divider" />
-              <p className="float-right"><a href="#">Back to top</a></p>
-              <p>© 2017-2019 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-            </footer>
+            {/* Footer */ }
+            <div>
+              <footer className="container">
+                <hr className="featurette-divider" />
+                <p className="float-right"><a href="#" style={{color:"white"}}>Back to top</a></p>
+                <p style={{color:"white"}}>© 2017-2019 Company, Inc. · <a href="#" style={{color:"white"}}>Privacy</a> · <a href="#" style={{color:"white"}}>Terms</a></p>
+              </footer>
+            </div>
           </div>
-
-        </main>
       </div>
-
     );
   }
 }

@@ -2,7 +2,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
+.body1 {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
@@ -46,7 +46,12 @@ body {
   width: 75%;
   padding: 10px;
 }
-
+#centerlog{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .flex-container{
   display: flex;
   justify-content: space-around;
@@ -67,7 +72,13 @@ body{
 hr{
   background-color: #ccc;
 }
-
+#bgColor{
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: linear-gradient(#20344C, #354D69, #3D5674);
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
