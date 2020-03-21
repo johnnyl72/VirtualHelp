@@ -2,7 +2,7 @@ import React from "react"
 import '../product.css';
 import '../animate.css';
 import {Link} from 'react-router-dom';
-class Home extends React.Component{
+function Home(){
 
   render(){
 
