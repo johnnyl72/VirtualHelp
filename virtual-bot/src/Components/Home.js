@@ -1,6 +1,7 @@
 import React from "react"
 import '../product.css';
 import '../animate.css';
+import {Link} from 'react-router-dom';
 class Home extends React.Component{
 
   render(){
@@ -30,12 +31,12 @@ class Home extends React.Component{
             </div>
           </div>
           <div id="bgColor" className="pb-2">
-          <div id="myCarousel" className="carousel slide" data-ride="carousel">
-            <ol className="carousel-indicators">
+          <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="4000">
+            {/* <ol className="carousel-indicators"> */}
               <li data-target="#myCarousel" data-slide-to={0} className="active" />
               <li data-target="#myCarousel" data-slide-to={1} />
               <li data-target="#myCarousel" data-slide-to={2} />
-            </ol>
+            {/* </ol> */}
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img className="cover" src="https://images.pexels.com/photos/3787818/pexels-photo-3787818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
@@ -76,45 +77,52 @@ class Home extends React.Component{
               <span className="sr-only">Next</span>
             </a>
           </div>
-            <div className="p-5">
+            <div className="pb-5">
               <div class="container">
                 {/* START THE FEATURETTES */}
                 <div className="row featurette">
                   <div className="col-md-7">
-                    <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It’ll blow your mind.</span></h2>
-                    <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
+                    <p className="lead" style={{color:"white"}}>testimonals or perks or something or functions</p>
                   </div>
                   <div className="col-md-5">
-                    <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto fadeInRight" width={500} height={500} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                    <img src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "260px", position: "relative", top: "6rem"}}/>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="p-5">
+            <div className="mpy-5">
               <div className="container" >
                 <div className="row featurette">
                   <div className="col-md-7 order-md-2">
-                    <h2 className="featurette-heading">Oh yeah, it’s that good. <span className="text-muted">See for yourself.</span></h2>
-                    <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
+                    <p className="lead" style={{color:"white"}}>testimonals or perks or something or functions</p>
                   </div>
                   <div className="col-md-5 order-md-1">
-                    <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto fadeInLeft" width={500} height={500} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                    <img src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "290px", position: "relative", top: "6rem"}}/>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="p-5">
+            <div className="py-5">
               <div className="container">
                 <div className="row featurette">
-                  <div className="col-md-7 order-md-2">
-                    <h2 className="featurette-heading">Oh yeah, it’s that good. <span className="text-muted">See for yourself.</span></h2>
-                    <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                  <div className="col-md-7 order-md-1">
+                    <h3 className="featurette-heading" style={{color: "white"}}>White guy here</h3>
+                    <p className="lead mt-3" style={{color:"white"}}>Through trial and error, I found a wonderful psychologist, who was able to help me through that time by using talk-therapy. Later on, I realized that when I was speaking with my friends and colleagues, I was simply repeating the conversations I previously had with my psychologist.
+                      That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
                   </div>
-                  <div className="col-md-5 order-md-1">
-                    <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto fadeInRight" width={500} height={500} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                  <div className="col-md-5 order-md-2">
+                    <img src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "300px", position: "relative", top: "6rem"}}/>
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="col-2 center pt-5 mt-5">
+              <Link to="/SignIn" style={{textDecoration: "none"}}>
+                <button className="btn btn-lg btn-primary btn-block " type="button" style={{backgroundColor:"#FF6347"}}>Start Now</button>
+              </Link>
+
             </div>
             {/* Footer */ }
             <div>

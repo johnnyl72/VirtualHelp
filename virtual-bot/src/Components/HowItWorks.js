@@ -2,8 +2,8 @@ import React from "react"
 
 function HowItWorks(){
   return(
-    <div>
-      <h1>Hello World</h1>
+    <div className="pt-5">
+      <div className= "pt-5" id="centerlog">I wonder that too</div>
     </div>
   )
 }
