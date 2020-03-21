@@ -15,7 +15,7 @@ class Home extends React.Component{
                   <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "75%"}}/>
                 </div>
                 <div className="col-lg-6 fadeIn">
-                  <h1 class="heading" style={{color:"coral"}}>Introducting Help Bot</h1>
+                  <h1 class="heading" style={{color:"coral"}}>Introducing Help Bot</h1>
                   <br/>
                   <p class="subheading" style={{color:"white"}}>Sometimes we get all tangled up inside our heads, unable to move on. Help Bot is great at helping you get unstuck. Co-designed by therapists, coaches, users and AI folk, Help Bot lets you set the pace, helps when it can, and never judges. It is free and anonymous - so give it a try!</p>
                   <p class="subheading" style={{color:"white"}}>Nothing can match the privacy of an anonymous conversation with an AI bot. Think of it as an interactive journal meets life coach. Wysa is good at asking the right probing questions, and helping you untangle and unwind after a hard day.</p>
