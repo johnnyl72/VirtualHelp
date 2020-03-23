@@ -52,10 +52,12 @@
   margin-right: auto;
   width: 50%;
 }
-.flex-container{
+.flex-about{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 body{
   font-family: 'Source Code Pro', monospace;
@@ -77,8 +79,28 @@ hr{
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  background-image: linear-gradient(#2f435c, #5a76ad, #3c2f5c);
+  /* background-image: linear-gradient(#2f435c, #5a76ad, #3c2f5c); */
+  background-image: linear-gradient(to top, #667eea, #000638 100%);
 }
+
+.meBox{
+  border-radius: 10px;
+  box-shadow:  0px 5px 20px rgb(71,71,71);
+  margin: 3%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  min-width: 40%;
+}
+#meGradient{
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+/* logo color is rgb(255,122,55); */
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 

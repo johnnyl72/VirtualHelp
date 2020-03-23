@@ -3,19 +3,16 @@ import '../product.css';
 import '../animate.css';
 import {Link} from 'react-router-dom';
 function Home(){
-
-  render(){
-
     return(
       <div>
-          <div style={{backgroundImage: "url(https://wallpaperplay.com/walls/full/8/4/2/86369.jpg)"}} >
+          <div style={{backgroundImage: "url(https://wallpaperplay.com/walls/full/8/4/2/86369.jpg)", filter: "contrast(200%)"}}>
             <div style={{paddingTop: "10%", paddingBottom: "10%"}}>
               <div className="row center">
                 <div className="col-lg-3 fadeIn">
-                  <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "75%"}}/>
+                  <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "75%", filter: "hue-rotate(333deg)"}}/>
                 </div>
                 <div className="col-lg-6 fadeIn">
-                  <h1 class="heading" style={{color:"coral"}}>Introducing Help Bot</h1>
+                  <h1 class="heading" style={{color:"#F0F8FF",}}>Introducing Help Bot</h1>
                   <br/>
                   <p class="subheading" style={{color:"white"}}>Sometimes we get all tangled up inside our heads, unable to move on. Help Bot is great at helping you get unstuck. Co-designed by therapists, coaches, users and AI folk, Help Bot lets you set the pace, helps when it can, and never judges. It is free and anonymous - so give it a try!</p>
                   <p class="subheading" style={{color:"white"}}>Nothing can match the privacy of an anonymous conversation with an AI bot. Think of it as an interactive journal meets life coach. Wysa is good at asking the right probing questions, and helping you untangle and unwind after a hard day.</p>
@@ -39,7 +36,7 @@ function Home(){
             {/* </ol> */}
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className="cover" src="https://images.pexels.com/photos/3787818/pexels-photo-3787818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
+                <img className="cover me" src="https://images.pexels.com/photos/3787818/pexels-photo-3787818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
                 <div className="container">
                   <div className="carousel-caption text-left">
                     <h1>Example headline.</h1>
@@ -86,7 +83,7 @@ function Home(){
                     <p className="lead" style={{color:"white"}}>testimonals or perks or something or functions</p>
                   </div>
                   <div className="col-md-5">
-                    <img src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "260px", position: "relative", top: "6rem"}}/>
+                    <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "260px", position: "relative", top: "6rem"}}/>
                   </div>
                 </div>
               </div>
@@ -99,7 +96,7 @@ function Home(){
                     <p className="lead" style={{color:"white"}}>testimonals or perks or something or functions</p>
                   </div>
                   <div className="col-md-5 order-md-1">
-                    <img src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "290px", position: "relative", top: "6rem"}}/>
+                    <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "290px", position: "relative", top: "6rem"}}/>
                   </div>
                 </div>
               </div>
@@ -113,14 +110,14 @@ function Home(){
                       That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
                   </div>
                   <div className="col-md-5 order-md-2">
-                    <img src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "300px", position: "relative", top: "6rem"}}/>
+                    <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "300px", position: "relative", top: "6rem"}}/>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-2 center pt-5 mt-5">
               <Link to="/SignIn" style={{textDecoration: "none"}}>
-                <button className="btn btn-lg btn-primary btn-block " type="button" style={{backgroundColor:"#FF6347"}}>Start Now</button>
+                <button className="btn btn-lg btn-primary btn-block " type="button" style={{backgroundColor:"#32a5ff"}}>Start Now</button>
               </Link>
 
             </div>
@@ -135,7 +132,6 @@ function Home(){
           </div>
       </div>
     );
-  }
 }
 
   export default Home
