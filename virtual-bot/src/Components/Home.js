@@ -1,14 +1,15 @@
-import React from "react"
+import React, {useState, useEffect} from "react"
 import '../product.css';
 import '../animate.css';
 import {Link} from 'react-router-dom';
 function Home(){
+
     return(
       <div>
           <div style={{backgroundImage: "url(https://wallpaperplay.com/walls/full/8/4/2/86369.jpg)", filter: "contrast(200%)"}}>
             <div style={{paddingTop: "10%", paddingBottom: "10%"}}>
               <div className="row center">
-                <div className="col-lg-3 fadeIn">
+                <div className="col-sm-3 fadeIn">
                   <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "75%", filter: "hue-rotate(333deg)"}}/>
                 </div>
                 <div className="col-lg-6 fadeIn">
@@ -17,7 +18,7 @@ function Home(){
                   <p class="subheading" style={{color:"white"}}>Sometimes we get all tangled up inside our heads, unable to move on. Help Bot is great at helping you get unstuck. Co-designed by therapists, coaches, users and AI folk, Help Bot lets you set the pace, helps when it can, and never judges. It is free and anonymous - so give it a try!</p>
                   <p class="subheading" style={{color:"white"}}>Nothing can match the privacy of an anonymous conversation with an AI bot. Think of it as an interactive journal meets life coach. Wysa is good at asking the right probing questions, and helping you untangle and unwind after a hard day.</p>
                 </div>
-                <div className="col-lg-3 fadeIn">
+                <div className="col-sm-3 fadeIn">
                   <img src="https://woebot.io/static/app-d427756f065bfa07d4125d9be3d8ee8d.gif" alt="" style={{width: "95%", position: "relative", left: "30%", translateX: "25%"}} className="Phone"/>
                 </div>
                 <div className="row fadeInLeft" style={{position: "relative", right: "15%"}}>

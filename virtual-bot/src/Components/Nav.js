@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 function Nav(){
   return(
-    <div>
+    <div className="m-2">
       <header>
         <nav className="navbar navbar-expand-md navbar-light fixed-top fadeIn" style={{backgroundColor: "#000"}}>
           <Link to="/" style={{textDecoration: "none"}}>
