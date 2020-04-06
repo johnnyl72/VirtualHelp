@@ -2,8 +2,9 @@ import React from "react"
 
 function HowItWorks(){
   return(
+
     <div className="py-5 container">
-      <h1 className= "center" style={{paddingTop: "10%", paddingBottom: "10%"}}>The science behind Helpt Bot</h1>
+      <h1 className= "centerHeader" style={{paddingTop: "10%", paddingBottom: "10%"}}>The science behind Help Bot</h1>
       <div className= "py-5 flex-about">
         <div className="col-6">
           <h1>Who do you think you are?</h1>

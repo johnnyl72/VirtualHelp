@@ -4,7 +4,7 @@ function About(){
   return(
     <div className="pt-5" id="meGradient">
       <div className="flex pt-5" id="centerlog">
-        <h1 id="centerlog" style={{fontWeight: "bold",  paddingTop: "1rem", paddingBottom: "1rem", color: "white"}}>Our Core Beliefs</h1>
+        <h1 className="centerHeader" style={{fontWeight: "bold",  paddingTop: "1rem", paddingBottom: "1rem", color: "white"}}>Our Core Beliefs</h1>
         <div className="meBox">
           <h2 style={{fontWeight: "bold", paddingTop: "2rem"}}>
             1. Humans are constantly growing
@@ -79,6 +79,7 @@ function About(){
             I agree with a “skills before pills” approach, which relies on teaching skills that are useful for life.</p>
         </div>
       </div>
+      <br/>
     </div>
   )
 }
