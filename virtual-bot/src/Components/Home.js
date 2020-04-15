@@ -9,8 +9,8 @@ function Home(){
           <div style={{backgroundImage: "url(https://wallpaperplay.com/walls/full/8/4/2/86369.jpg)", filter: "contrast(200%)"}}>
             <div style={{paddingTop: "10%", paddingBottom: "10%"}}>
               <div className="row center">
-                <div className="col-sm-3 fadeIn">
-                  <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "75%", filter: "hue-rotate(333deg)"}}/>
+                <div className="col-lg-3 fadeIn">
+                  <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "7rem",filter: "hue-rotate(333deg)"}}/>
                 </div>
                 <div className="col-lg-6 fadeIn">
                   <h1 class="heading" style={{color:"#F0F8FF",}}>Introducing Help Bot</h1>
@@ -18,12 +18,12 @@ function Home(){
                   <p class="subheading" style={{color:"white"}}>Sometimes we get all tangled up inside our heads, unable to move on. Help Bot is great at helping you get unstuck. Co-designed by therapists, coaches, users and AI folk, Help Bot lets you set the pace, helps when it can, and never judges. It is free and anonymous - so give it a try!</p>
                   <p class="subheading" style={{color:"white"}}>Nothing can match the privacy of an anonymous conversation with an AI bot. Think of it as an interactive journal meets life coach. Wysa is good at asking the right probing questions, and helping you untangle and unwind after a hard day.</p>
                 </div>
-                <div className="col-sm-3 fadeIn">
+                <div className="row fadeIn">
                   <img src="https://woebot.io/static/app-d427756f065bfa07d4125d9be3d8ee8d.gif" alt="" style={{width: "95%", position: "relative", left: "30%", translateX: "25%"}} className="Phone"/>
                 </div>
-                <div className="row fadeInLeft" style={{position: "relative", right: "15%"}}>
-                  <img src="https://pluspng.com/img-png/get-it-on-google-play-png-file-get-it-on-google-play-svg-1280.png" alt="" style={{width:"20%", padding: "15px" }}/>
-                  <img src="https://cdn.worldvectorlogo.com/logos/download-on-the-app-store-apple.svg" alt="" style={{width:"20%", padding: "15px"}}/>
+                <div className="col-lg-12 fadeInLeft" style={{position: "relative", right: "15%"}}>
+                  <img src="https://pluspng.com/img-png/get-it-on-google-play-png-file-get-it-on-google-play-svg-1280.png" alt="" style={{width:"25rem", padding: "15px" }}/>
+                  <img src="https://cdn.worldvectorlogo.com/logos/download-on-the-app-store-apple.svg" alt="" style={{width:"25rem", padding: "15px"}}/>
                 </div>
               </div>
             </div>
@@ -75,48 +75,37 @@ function Home(){
               <span className="sr-only">Next</span>
             </a>
           </div>
-            <div className="pb-5">
-              <div class="container">
-                {/* START THE FEATURETTES */}
-                <div className="row featurette">
-                  <div className="col-md-7">
-                    <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
-                    <p className="lead" style={{color:"white"}}>testimonals or perks or something or functions</p>
-                  </div>
-                  <div className="col-md-5">
-                    <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "260px", position: "relative", top: "6rem"}}/>
-                  </div>
+
+
+          <div className="center" style={{width: "90%"}}>
+            <div className="testimonals">
+                <div>
+                  <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
+                  <p className="lead" style={{color:"white"}}>Through trial and error, I found a wonderful psychologist, who was able to help me through that time by using talk-therapy. Later on, I realized that when I was speaking with my friends and colleagues, I was simply repeating the conversations I previously had with my psychologist.
+                    That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
                 </div>
+                <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "10%"}}/>
+              </div>
+            <div className="testimonals">
+              <div>
+                <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
+                  <p className="lead" style={{color:"white"}}>Through trial and error, I found a wonderful psychologist, who was able to help me through that time by using talk-therapy. Later on, I realized that when I was speaking with my friends and colleagues, I was simply repeating the conversations I previously had with my psychologist.
+                    That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
+                </div>
+                <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "10%"}}/>
+              </div>
+            <div className="testimonals">
+              <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "10%"}}/>
+              <div>
+                <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
+                <p className="lead" style={{color:"white"}}>Through trial and error, I found a wonderful psychologist, who was able to help me through that time by using talk-therapy. Later on, I realized that when I was speaking with my friends and colleagues, I was simply repeating the conversations I previously had with my psychologist.
+                  That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
               </div>
             </div>
-            <div className="mpy-5">
-              <div className="container" >
-                <div className="row featurette">
-                  <div className="col-md-7 order-md-2">
-                    <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
-                    <p className="lead" style={{color:"white"}}>testimonals or perks or something or functions</p>
-                  </div>
-                  <div className="col-md-5 order-md-1">
-                    <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "290px", position: "relative", top: "6rem"}}/>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="py-5">
-              <div className="container">
-                <div className="row featurette">
-                  <div className="col-md-7 order-md-1">
-                    <h3 className="featurette-heading" style={{color: "white"}}>White guy here</h3>
-                    <p className="lead mt-3" style={{color:"white"}}>Through trial and error, I found a wonderful psychologist, who was able to help me through that time by using talk-therapy. Later on, I realized that when I was speaking with my friends and colleagues, I was simply repeating the conversations I previously had with my psychologist.
-                      That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
-                  </div>
-                  <div className="col-md-5 order-md-2">
-                    <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "300px", position: "relative", top: "6rem"}}/>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-2 center pt-5 mt-5">
+          </div>
+
+
+            <div className="col-lg-2 center pt-5 mt-5">
               <Link to="/SignIn" style={{textDecoration: "none"}}>
                 <button className="btn btn-lg btn-primary btn-block " type="button" style={{backgroundColor:"#32a5ff"}}>Start Now</button>
               </Link>
