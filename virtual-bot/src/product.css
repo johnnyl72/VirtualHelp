@@ -1,6 +1,15 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: white;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgb(50, 165, 255);
+  border: .05rem solid skyblue;
+}
 
 .body1 {
   padding-top: 3rem;
