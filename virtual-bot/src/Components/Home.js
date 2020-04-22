@@ -10,7 +10,7 @@ function Home(){
             <div style={{paddingTop: "10%", paddingBottom: "10%"}}>
               <div className="row center">
                 <div className="col-lg-3 fadeIn">
-                  <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "400px", position: "relative", right: "7rem",filter: "hue-rotate(333deg)"}}/>
+                  <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "330px", position: "relative", right: "10rem",filter: "hue-rotate(333deg)"}}/>
                 </div>
                 <div className="col-lg-6 fadeIn">
                   <h1 class="heading" style={{color:"#F0F8FF",}}>Introducing Help Bot</h1>
@@ -18,12 +18,12 @@ function Home(){
                   <p class="subheading" style={{color:"white"}}>Sometimes we get all tangled up inside our heads, unable to move on. Help Bot is great at helping you get unstuck. Co-designed by therapists, coaches, users and AI folk, Help Bot lets you set the pace, helps when it can, and never judges. It is free and anonymous - so give it a try!</p>
                   <p class="subheading" style={{color:"white"}}>Nothing can match the privacy of an anonymous conversation with an AI bot. Think of it as an interactive journal meets life coach. Wysa is good at asking the right probing questions, and helping you untangle and unwind after a hard day.</p>
                 </div>
-                <div className="row fadeIn">
+                <div className="col-lg-3 fadeIn">
                   <img src="https://woebot.io/static/app-d427756f065bfa07d4125d9be3d8ee8d.gif" alt="" style={{width: "95%", position: "relative", left: "30%", translateX: "25%"}} className="Phone"/>
                 </div>
                 <div className="col-lg-12 fadeInLeft" style={{position: "relative", right: "15%"}}>
-                  <img src="https://pluspng.com/img-png/get-it-on-google-play-png-file-get-it-on-google-play-svg-1280.png" alt="" style={{width:"25rem", padding: "15px" }}/>
-                  <img src="https://cdn.worldvectorlogo.com/logos/download-on-the-app-store-apple.svg" alt="" style={{width:"25rem", padding: "15px"}}/>
+                  <img src="https://pluspng.com/img-png/get-it-on-google-play-png-file-get-it-on-google-play-svg-1280.png" alt="" style={{width:"20rem", padding: "15px" }}/>
+                  <img src="https://cdn.worldvectorlogo.com/logos/download-on-the-app-store-apple.svg" alt="" style={{width:"20rem", padding: "15px"}}/>
                 </div>
               </div>
             </div>
@@ -78,6 +78,7 @@ function Home(){
 
 
           <div className="center" style={{width: "90%"}}>
+
             <div className="testimonals">
                 <div>
                   <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
@@ -85,7 +86,8 @@ function Home(){
                     That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
                 </div>
                 <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "10%"}}/>
-              </div>
+            </div>
+
             <div className="testimonals">
               <div>
                 <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
@@ -93,7 +95,8 @@ function Home(){
                     That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
                 </div>
                 <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "10%"}}/>
-              </div>
+            </div>
+
             <div className="testimonals">
               <img className="meBox" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "10%"}}/>
               <div>
