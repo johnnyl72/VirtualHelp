@@ -1,6 +1,9 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-
+/* OVERRIDE NAVBAR */
+.bg-ofnav{
+	background-color: black !important;
+}
 /* Chat box styles */
 .chatBox{
 	position: relative;
