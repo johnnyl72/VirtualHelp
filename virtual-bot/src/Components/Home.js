@@ -7,7 +7,7 @@ function Home(){
     return(
       <div>
           <div style={{backgroundImage: "url(https://wallpaperplay.com/walls/full/8/4/2/86369.jpg)", filter: "contrast(200%)"}}>
-            <div style={{paddingTop: "10%", paddingBottom: "10%"}}>
+            <div style={{paddingTop: "4%", paddingBottom: "10%"}}>
               <div className="row center">
                 <div className="col-lg-3 fadeIn img-fluid mb-3 d-none d-lg-block">
                   <img src="https://cdn.clipart.email/1468a43d9aab498728e693cefdc57f7f_28-collection-of-robot-clipart-transparent-high-quality-free-_2220-2000.png"  style={{width: "330px", position: "relative", right: "10rem",filter: "hue-rotate(333deg)"}}/>

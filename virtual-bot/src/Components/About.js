@@ -2,7 +2,7 @@ import React from "react"
 import '../product.css';
 function About(){
   return(
-    <div className="pt-5" id="meGradient">
+    <div id="meGradient">
       <div className="flex pt-5" id="centerlog">
         <h1 className="centerHeader" style={{fontWeight: "bold",  paddingTop: "1rem", paddingBottom: "1rem", color: "white"}}>Our Core Beliefs</h1>
         <div className="abtBox">

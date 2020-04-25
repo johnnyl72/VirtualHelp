@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 function SignIn(){
   return(
       <div>
-        <div style={{marginTop: '7rem'}} >
+        <div>
           <form className="form-signin pt-5">
             <img className="mb-4" id="centerlog"  src="https://i.pinimg.com/originals/ba/92/fe/ba92fe11861df19e26a8be133acc5e10.png" alt="" style={{width:"72px", height:"72px", transform: "rotate(.6turn)", filter: "hue-rotate(50deg"}}/>
             <h1 className="h3 mb-3 font-weight-normal">Please sign in.</h1>

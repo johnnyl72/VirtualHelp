@@ -28,7 +28,7 @@ class ChatSpace extends Component {
     console.log(this.props)
     const {ourState, sendMessage} = this.props;
     return (
-      <div class= "center mt-5 pt-5">
+      <div class= "center mt-3">
         <h5 class="text-center" > This is Arnold, he's ready when you are.</h5>
 
         <div class="chatBox" id="chatBox">

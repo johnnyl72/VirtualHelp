@@ -13,7 +13,7 @@ function SignUp(){
     <div>
 
       <div className="container pt-5">
-        <div className="row py-5 mt-4 align-items-center">
+        <div className="row align-items-center">
           {/* For Demo Purpose */}
           <div className="col-md-5 pr-lg-5 mb-5 mb-md-0">
             <img src="https://res.cloudinary.com/mhmd/image/upload/v1569543678/form_d9sh6m.svg" alt="" className="img-fluid mb-3 d-none d-md-block" />

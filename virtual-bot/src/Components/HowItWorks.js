@@ -3,8 +3,8 @@ import React from "react"
 function HowItWorks(){
   return(
 
-    <div className="py-5 container">
-      <h1 className= "centerHeader" style={{paddingTop: "10%", paddingBottom: "10%"}}>The science behind Help Bot</h1>
+    <div className="container">
+      <h1 className= "centerHeader" style={{paddingTop: "4%", paddingBottom: "10%"}}>The science behind Help Bot</h1>
 
       <div className="row pb-5 m-2">
         <h1 className="col-lg-6 center">
