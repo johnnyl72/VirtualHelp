@@ -6,7 +6,7 @@ const client = new ApiAiClient({accessToken})
 const ON_MESSAGE = 'ON_MESSAGE'; //generic event
 
 //Action
-export const sendMessage = (text, sender='You') => ({
+export const sendMessage = (text, sender='Me') => ({
   type: ON_MESSAGE,
   payload: {text, sender}
 });

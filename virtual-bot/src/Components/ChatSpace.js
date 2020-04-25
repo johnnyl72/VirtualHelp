@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {sendMessage} from './chatAPI';
 import "../chat.css"
+
 class ChatSpace extends Component {
+
   render(){
     var userStyle = {
-      border: "1px solid #007AFF",
+      border: "6px solid #007AFF",
       backgroundColor: "#007AFF",
-      padding: "2%",
+      padding: "1%",
       width: "auto",
       color: "#fff",
       borderRadius: "20px",
@@ -15,16 +17,15 @@ class ChatSpace extends Component {
     };
 
     var botStyle = {
-      border: "1px solid #00CC47",
+      border: "6px solid #00CC47",
       backgroundColor: "#00CC47",
-      padding: "2%",
+      padding: "1%",
       width: "auto",
       color: "#fff",
       borderRadius: "20px",
       display: "inline-block"
     };
-
-    // console.log(this.props)
+    console.log(this.props)
     const {ourState, sendMessage} = this.props;
     return (
       <div class= "center mt-5 pt-5">
@@ -33,22 +34,24 @@ class ChatSpace extends Component {
         <div class="chatBox" id="chatBox">
             {ourState.map(entry =>
               {
-                if(entry.sender == "You")
+                if(entry.sender == "Me")
                   return (
                     <div style={{textAlign: "right"}}>
-                      <p style={userStyle}> {entry.sender}: {entry.text}</p>
+                      <p style={{ fontSize: "15px", lineHeight: "2px", fontColor: "#F0F8FF"}}>{entry.sender}</p>
+                      <p style={userStyle}>{entry.text}</p>
                     </div>)
                 else{
                   return (
                     <div style={{textAlign: "left"}}>
-                      <p style={botStyle}> {entry.sender}: {entry.text}</p>
+                      <p style={{ fontSize: "15px", lineHeight: "2px", fontColor: "#F0F8FF"}}>{entry.sender}</p>
+                      <p style={botStyle}>{entry.text}</p>
                     </div>)
                 }
               }
             )}
 
         </div>
-        <input class="w3-input" id="mesbox" type="text" placeholder="Send message" onKeyDown={ e =>
+        <input  autocomplete="off" class="w3-input" id="mesbox" type="text" placeholder="Send message" onKeyDown={ e =>
           {
             if(e.keyCode === 13){
               return (
@@ -57,7 +60,7 @@ class ChatSpace extends Component {
               )
             }
             else
-              return null
+            return null
           }
         }
       />

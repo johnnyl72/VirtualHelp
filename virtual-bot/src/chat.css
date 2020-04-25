@@ -1,19 +1,24 @@
 /* Chat box styles */
 .chatBox{
 	position: relative;
-	margin: 1%;
-	padding: 15px 10px;
-	border: 1px solid #ececec;
-	border-radius: 1px;
-	max-height: 60vh;
-	min-height: 50vh;
+	margin: 1px;
+	padding: 10px 8px;
+	border: 0px solid #ececec;
+	border-radius: 14px;
+	max-height: 70vh;
+	min-height: 70vh;
   overflow: auto ;
+	border-color: black;
 }
 
 .w3-input{
   padding:10px;
-  display:block;
+	float: right;
+  display:inline-block;
+	text-align: right;
   border:1px solid #ccc;
-  width:100%;
-  margin: 1px auto !important;
+  width: 100%;
+  margin: 10px auto !important;
+	border-radius: 20px;
+	outline-width: 0;
 }

@@ -5,7 +5,7 @@ function Nav(){
   return(
     <div className="m-2">
       <header>
-        <nav className="navbar navbar-expand-md navbar-light fixed-top fadeIn" style={{backgroundColor: "#000"}}>
+        <nav className="navbar navbar-expand-xs navbar-light fixed-top fadeIn" style={{backgroundColor: "#000"}}>
           <Link to="/" style={{textDecoration: "none"}}>
             <img src="https://i.pinimg.com/originals/ba/92/fe/ba92fe11861df19e26a8be133acc5e10.png"
                 style={{width:"30px", height:"30px", transform: "rotate(.6turn)", filter: "hue-rotate(50deg"}}
