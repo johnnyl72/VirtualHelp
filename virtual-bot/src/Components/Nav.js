@@ -9,15 +9,10 @@
       });
       this.authListener = this.authListener.bind(this);
       this.logout = this.logout.bind(this);
-      this.peepee = this.peepee.bind(this);
     }
 
     logout() {
       fire.auth().signOut();
-    }
-
-    peepee() {
-      alert("HEYOOOO");
     }
 
     componentDidMount(){
@@ -76,20 +71,28 @@
                      </li>
                    </Link>
 
-                   {this.state.user ? <Link to="/" style={{textDecoration: "none"}}>
-                      <li class="nav-item" style={{color: "white", padding: "10px"}} onClick={this.logout}>
-                        Sign Out
-                      </li>
-                   </Link> : <Link to="/SignIn" style={{textDecoration: "none"}}>
+                   {this.state.user ? <div>
+                     <Link to="/" style={{textDecoration: "none"}}>
+                        <li class="nav-item" style={{color: "white", padding: "10px"}} onClick={this.logout}>
+                          Sign Out
+                        </li>
+                     </Link>
+                   </div>
+                    : <Link to="/SignIn" style={{textDecoration: "none"}}>
                       <li class="nav-item" style={{color: "white", padding: "10px"}}>
                         Sign In
                       </li>
                    </Link>}
 
-                   {/* <li onClick={this.peepee} class="nav-item" style={{color: "white", padding: "10px"}}>
-                      HEY HEY HEY
-                   </li> */}
-
+                   {this.state.user ? (
+                     <Link to="/ChatSpace" style={{textDecoration: "none"}}>
+                          <li class="nav-item" style={{color: "white", padding: "10px"}}>
+                            Chat Now
+                          </li>
+                    </Link>)
+                    :
+                    <div></div>
+                  }
 
                 </ul>
               </div>
