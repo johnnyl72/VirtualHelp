@@ -40,8 +40,8 @@ class Home extends Component{
               <img className="cover me " src="https://images.pexels.com/photos/3787818/pexels-photo-3787818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
               <div className="container">
                 <div className="carousel-caption text-left">
-                  <h1>Example headline.</h1>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                  <h1>Coaches to help start and stick with it</h1>
+                  <p style={{color: "white"}}>Each employee gets a trained coach, available by phone, text or email, to personalize the program and keep the motivation going.</p>
                   <p><a className="btn btn-dark btn-primary btn-lg" href="#" role="button">Sign up today</a></p>
                 </div>
               </div>
@@ -50,8 +50,8 @@ class Home extends Component{
               <img className="cover" src="https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
               <div className="container">
                 <div className="carousel-caption">
-                  <h1 style={{color: "black"}}>Another example headline.</h1>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <h1 style={{color: "black"}}>Bite-size activities Big-size outcomes</h1>
+                  <p>How do you make digital therapy enjoyable and effective for your employees? Simple. With 5-minute activities that are easy to do—and backed up with clinical proof.</p>
                   <p><a className="btn btn-lg btn-primary btn-outline-info" href="#" role="button">Learn more</a></p>
                 </div>
               </div>
@@ -60,8 +60,8 @@ class Home extends Component{
               <img className="cover" src="https://images.pexels.com/photos/1007901/pexels-photo-1007901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
               <div className="container">
                 <div className="carousel-caption text-right">
-                  <h1>One more for good measure.</h1>
-                  <p><a className="btn btn-dark btn-primary btn-lg" href="#" role="button">Browse gallery</a></p>
+                  <h1>Built with the world’s leading experts</h1>
+                  <p><a className="btn btn-dark btn-primary btn-lg" href="#" role="button">We work with the top experts in anxiety and depression. It’s why our approach works.</a></p>
                 </div>
               </div>
             </div>
@@ -81,28 +81,27 @@ class Home extends Component{
 
           <div className="testimonals mb-5">
             <div>
-              <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
-              <p className="lead" style={{color:"white"}}>Through trial and error, I found a wonderful psychologist, who was able to help me through that time by using talk-therapy. Later on, I realized that when I was speaking with my friends and colleagues, I was simply repeating the conversations I previously had with my psychologist.
-                That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
+              <h2 className="featurette-heading" style={{color: "white"}}>David Hoang</h2>
+              <p className="lead" style={{color:"white"}}>"Sometimes you need to talk things through - and everyone seems to have an opinion or analysis of your situation. All you need is someone who will listen and ask the right questions to help you figure things out."</p>
+              <p className="lead" style={{color:"white"}}>I’ve got confidence back again. It’s completely changed me. My energy levels are higher. I’m not drained every day. Confidence is huge in my line of work.</p>
               </div>
               <img className="meBox d-none d-lg-block" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "10%"}}/>
             </div>
 
             <div className="testimonals mb-5">
               <div>
-                <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
+                <h2 className="featurette-heading" style={{color: "white"}}>Frank Turner</h2>
                 <p className="lead" style={{color:"white"}}>Through trial and error, I found a wonderful psychologist, who was able to help me through that time by using talk-therapy. Later on, I realized that when I was speaking with my friends and colleagues, I was simply repeating the conversations I previously had with my psychologist.
                   That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
                 </div>
-                <img className="meBox d-none d-lg-block" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "10%"}}/>
+                <img className="meBox d-none d-lg-block" src="https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" style={{width: "10%"}}/>
               </div>
 
               <div className="testimonals mb-5">
-                <img className="meBox d-none d-lg-block" src="https://assets.website-files.com/5b514e705d6e7eb2ee91092e/5b516121584bd75a2c0d7b89_Michiel_Headshot-p-500.jpeg" alt="" style={{width: "10%"}}/>
+                <img className="meBox d-none d-lg-block" src="https://image.shutterstock.com/mosaic_250/2936380/640011838/stock-photo-handsome-unshaven-young-dark-skinned-male-laughing-out-loud-at-funny-meme-he-found-on-internet-640011838.jpg" alt="" style={{width: "10%"}}/>
                 <div>
-                  <h2 className="featurette-heading" style={{color: "white"}}>idk what to put here</h2>
-                  <p className="lead" style={{color:"white"}}>Through trial and error, I found a wonderful psychologist, who was able to help me through that time by using talk-therapy. Later on, I realized that when I was speaking with my friends and colleagues, I was simply repeating the conversations I previously had with my psychologist.
-                    That’s when I first realized: "If I can help people by repeating these conversations, then we could teach a machine to do the same."</p>
+                  <h2 className="featurette-heading" style={{color: "white"}}>Derick Lee</h2>
+                  <p className="lead" style={{color:"white"}}>"I knew that I was feeling isolated and depressed, and I knew that I was not living my best life, but was not sure exactly where to start. I decided to try this because [therapy] wasn’t really helping me deal with my anxiety in the here and now."</p>
                   </div>
                 </div>
               </div>
@@ -110,7 +109,7 @@ class Home extends Component{
 
               <div className="col-lg-2 center pt-5 mt-5">
                 <Link to="/SignIn" style={{textDecoration: "none"}}>
-                <button className="btn btn-lg btn-primary btn-block " type="button" style={{backgroundColor:"#32a5ff"}}>Start Now</button>
+                <button className="btn btn-lg btn-info btn-block " type="button" style={{backgroundColor:"#32a5ff"}}>Start Now</button>
               </Link>
 
             </div>

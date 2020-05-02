@@ -43,7 +43,7 @@ class App extends Component {
       <Router>
         <div>
           <Nav/>
-          {this.state.user ? ( <Redirect push to="/WelcomeBack"/>) : (<Redirect push to="SignIn"/>)}
+          {/* {this.state.user ? ( <Redirect push to="/WelcomeBack"/>) : (<Redirect push to="SignIn"/>)} */}
           <Switch>
             <Route path="/" exact component ={Home}/>
             <Route path="/WhatYouGet" exact component ={WhatYouGet}/>
