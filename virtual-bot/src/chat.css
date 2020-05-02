@@ -11,6 +11,16 @@
 	border-color: black;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.chatBox::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.chatBox {
+  -ms-overflow-style: none;
+}
+
 .w3-input{
   padding:10px;
 	float: right;

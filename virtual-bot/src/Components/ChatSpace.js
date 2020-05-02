@@ -5,6 +5,18 @@ import "../chat.css"
 
 class ChatSpace extends Component {
 
+  componentDidMount() {
+    this.scrollToBottom();
+  }
+
+  componentDidUpdate() {
+    this.scrollToBottom();
+  }
+
+  scrollToBottom() {
+    this.el.scrollIntoView({ behavior: 'smooth' });
+  }
+
   render(){
     var userStyle = {
       border: "6px solid #007AFF",
@@ -49,6 +61,8 @@ class ChatSpace extends Component {
                 }
               }
             )}
+
+        <div ref={el => { this.el = el; }} />
 
         </div>
         <input  autocomplete="off" class="w3-input" id="mesbox" type="text" placeholder="Send message" onKeyDown={ e =>
