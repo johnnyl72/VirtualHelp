@@ -12,7 +12,7 @@ export const sendMessage = (text, sender='Me') => ({
 });
 // A middleware is used so that the two APIs can speak as they cannot speak directly to one another
 const messageMiddleware = () => next => action => {
-  //Use next to forward to the redducer instead of using dispatch so it won't keep triggering middleWare
+  //Use next to forward to the reducer instead of using dispatch so it won't keep triggering middleWare
   next(action);
 
   if(action.type === ON_MESSAGE){
